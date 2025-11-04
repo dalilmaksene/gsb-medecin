@@ -1,4 +1,8 @@
 interface doctor {
     id : number;
-    firstname
+    firstName : string;
+    lastName : string;
+    email : string;
+    speciality : string;
+    address : string;
 }
