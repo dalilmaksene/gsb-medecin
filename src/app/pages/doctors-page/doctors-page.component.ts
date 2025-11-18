@@ -9,7 +9,7 @@ import { Doctor } from '../../types/doctor.interface';
   standalone: true,  
   imports: [CommonModule],  
   templateUrl: './doctors-page.component.html',  
-  styleUrls: ['./doctors-page.component.scss']
+  styleUrls: ['./doctors-page.component.css']
 })
 export class DoctorsPageComponent {
   private doctorsService = inject(DoctorsService);  
