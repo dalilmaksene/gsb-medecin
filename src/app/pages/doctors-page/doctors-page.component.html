@@ -1,1 +1,10 @@
-<p>doctors-page works!</p>
+<section class="doctors-grid">
+    @for (doctor of doctors(); track doctor.id) {
+        <li>{{ doctor.id }}</li>
+        <li>{{ doctor.firstName }}</li>
+        <li>{{ doctor.lastName }}</li>
+        <li>{{ doctor.email }}</li>
+        <li>{{ doctor.speciality }}</li>
+        <li>{{ doctor.address }}</li>
+    }
+  </section>

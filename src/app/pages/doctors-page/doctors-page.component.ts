@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { DoctorsService } from '../../services/doctors.service';
 import { Doctor } from '../../types/doctor.interface';
+import { DoctorCardComponent } from '../../components/doctor-card/doctor-card.component';
 
 @Component({
   selector: 'app-doctors-page',  

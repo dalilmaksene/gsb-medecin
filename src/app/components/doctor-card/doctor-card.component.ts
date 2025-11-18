@@ -7,6 +7,6 @@ import { Doctor } from '../../types/doctor.interface';
   templateUrl: './doctor-card.component.html',
   styleUrl: './doctor-card.component.css',
 })
-export class DoctorCard {
+export class DoctorCardComponent {
 doctor = input.required<Doctor>();
 }
